@@ -1,13 +1,13 @@
 class Dashing < Formula
   desc "Generate Dash documentation from HTML files"
   homepage "https://github.com/Max13/dashing"
-  url "https://github.com/Max13/dashing/archive/0.4.0.tar.gz"
-  sha256 "e5b935afa2e8c8ea59a0d438511778433d16b479615c97dbb0363fd0658faa1a"
+  url "https://github.com/Max13/dashing/archive/0.4.1.tar.gz"
+  sha256 "16c1218d9ab6e1bfd1baea09ef1431e6729d79c05c26fd79fbc7c80d42baf21c"
 
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "c2f8c6d1385e407c9f643b313cbd4dac33c98c7c8604cf983b73c53b447bc8ed" => :high_sierra
-  end
+  # bottle do
+  #   cellar :any_skip_relocation
+  #   sha256 "c2f8c6d1385e407c9f643b313cbd4dac33c98c7c8604cf983b73c53b447bc8ed" => :high_sierra
+  # end
 
   depends_on "glide" => :build
   depends_on "go" => :build
